@@ -238,10 +238,13 @@
 
 // let arr = [1,4,9,16]
 // let newarr = arr.map((element) => {
-//     return 'phone'
+//     return 'changed array'
 // })
 
 // console.log(newarr)
+
+
+
 
 // let dollars = [1,5,10,3]
 
@@ -251,6 +254,9 @@
 
 // console.log(cents)
 
+
+
+
 // let dollars = [1,5,10,3]
 // let cents = []
 
@@ -259,6 +265,10 @@
 // }
 
 // console.log(cents);
+
+
+
+
 
 // OBJECTS (USED TO STORE MULTIPLE PROPERTIES IN ONE VARIABLE)
 
