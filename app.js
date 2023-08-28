@@ -1,21 +1,3 @@
-// let celsius = 10;
-// let fahrenheit = (celsius * 1.8) + 32;
-
-// console.log(fahrenheit)
-
-// let subscribed = true
-// let loggedIn = false
-
-// if (subscribed === true) {
-//     console.log('show the video')
-// }
-// else if (loggedIn === true) {
-//     console.log('you are not subscribed')
-// }
-// else {
-//     console.log('log into your account')
-// }
-
 // let cash = 20
 // let price = 20
 
@@ -28,8 +10,12 @@
 //     console.log('You need more cash')
 // }
 // else {
-//     console.log("You paid the exact amout, Thank you have a nice day")
+//     console.log("You paid the exact amount, Thank you have a nice day")
 // }
+
+
+
+
 
 // let cash = 60
 // let price = 60
@@ -45,8 +31,16 @@
 //     console.log('Card declined')
 // }
 
+
+
+
+
 // let hot = false
 // hot ? console.log('Its hot outside') : console.log('its cold asf')
+
+
+
+
 
 // let cash = 50
 // let price = 40
@@ -55,13 +49,22 @@
 // let str = cash >= price && isStoreOpen ? 'give receipt' : 'do not give receip'
 // console.log(str)
 
+
+
+
+// WHILE LOOP
+
 // let count = 1
 
 //  while (count <= 10) {
 //     console.log(count)
 //     count = count + 1
-
 // }
+
+
+
+
+// FOR LOOP
 
 // for (let i = 0; i <= 10; i++) {
 //     console.log(i)
@@ -82,17 +85,26 @@
 //     }
 // }
 
+
+
+
+
 // let str = 'frontend simplifid';
 
 // for (let i = 0; i <= str.length; i++) {
 //     console.log(str[i])
 // }
 
+
+
 // let str = 'jackson jacque';
 
 // for (let i = 0; i < str.length; i++) {
 //     console.log(str[i])
 // }
+
+
+
 
 // function welcomePersonToFES(name) {
 //     console.log(`Welcome to Frontend Simplified ${name}`)
@@ -101,11 +113,17 @@
 // welcomePersonToFES('jesse')
 // welcomePersonToFES('james')
 
+
+
+
 // function sumOfTwoNumber (num1, num2) {
 //     return num1 + num2
 // }
 
 // console.log(sumOfTwoNumber(10,10))
+
+
+
 
 // function convertCelsiusToFahrenheit (celsius) {
 //     return celsius * 1.8 + 32
@@ -114,10 +132,18 @@
 
 // console.log(convertCelsiusToFahrenheit(10))
 
+
+
+
 // const convertCelsiusToFahrenheit =(celsius) => {
 //     return celsius * 1.8 + 32
 // }
 // console.log(convertCelsiusToFahrenheit(10))
+
+
+
+
+// ARRAYS
 
 // let arr = [20, 30, 40, 50, 100]
 
@@ -125,8 +151,15 @@
 
 // console.log(arr[arr.length-1])
 
+
+// ARRAY PUSH METHOD
+
 // arr.push(200)
 // console.log(arr)
+
+
+// ARRAY FILTER METHOD
+
 
 // let arr = [20,30,40,50,100]
 
@@ -138,11 +171,16 @@
 
 // console.log(newArr)
 
+
+
+
 // let arr = [20,30,40,50,100]
 
 // let newArr = arr.filter (element => element < 50)
 
 // console.log(newArr)
+
+
 
 // let arr = ['A+', 'A', 'FAIL']
 
@@ -154,10 +192,14 @@
 
 // console.log(newArr)
 
+
+
 // let grades = ['A+', 'A', 'FAIL']
 // let goodGrades = grades.filter (element => element !== 'FAIL')
 
 // console.log(goodGrades)
+
+
 
 // let arr = ['FAIL', 'FAIL', 'B']
 // let newArr = arr.filter (element => element !== 'FAIL')
@@ -189,6 +231,8 @@
 // }
 
 // console.log(newarr)
+
+
 
 // ARRAY.MAP MATHOD
 
@@ -307,6 +351,6 @@
 
 // CLICK LISTENERS
 
-function changTitleToRed () {
-    document.querySelector('#title').style.color = "red"
-}
+// function changTitleToRed () {
+//     document.querySelector('#title').style.color = "red"
+// }
