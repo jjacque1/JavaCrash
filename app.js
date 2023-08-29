@@ -345,12 +345,23 @@
 // console.log(document.querySelector('#title'));
 
 // console.log(document.querySelector('.title'));
-
 // console.log(document.querySelector('h1'));
+
+
+
+
+// HOW TO CHANGE THE INNER HTML IN THE DOM
+
 // document.querySelector('#title').innerHTML = 'Frontend Simplified'
+
+
+
 
 // // change css
 // document.querySelector('#title').style.color = "red"
+
+
+
 
 
 // SECOND WAY OF ACCESSING AN ELEMENT
@@ -361,6 +372,14 @@
 
 // CLICK LISTENERS
 
-// function changTitleToRed () {
-//     document.querySelector('#title').style.color = "red"
+// function changeTitleToRed () {
+//     document.querySelector("#title").style.color = 'blue'
 // }
+
+
+// DARK AND LIGHT THEME
+// 
+
+function toggleDarkMode() {
+    document.querySelector('body').classList.toggle("dark-theme")
+}
