@@ -380,6 +380,13 @@
 // DARK AND LIGHT THEME
 // 
 
-function toggleDarkMode() {
-    document.querySelector('body').classList.toggle("dark-theme")
-}
+// function toggleDarkMode() {
+//     document.querySelector('body').classList.toggle("dark-theme")
+// }
+
+
+
+// PROMISES
+// SOMETHING THAT GIVE YOU A VALUE SOMETIME IN THE FUTURE
+
+
